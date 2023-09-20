@@ -1,0 +1,184 @@
+.table-sub-hd {
+  font-size: 13px;
+}
+.table-sub-hd-complete {
+  font-size: 13px;
+  position: relative;
+  left: 4%;
+}
+
+.Tasktable {
+  border: 1px solid #ccc !important;
+  border-radius: 10px !important;
+  position: relative;
+  left: 2%;
+}
+.col-4 {
+  position: relative;
+  left: 3%;
+}
+.slider-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.table-container {
+  max-height: 430px;
+  overflow-y: auto;
+}
+
+.emp-img {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+}
+
+.high {
+  border-radius: 20px;
+  font-size: 10px;
+  border: 1px solid red;
+}
+.medium {
+  border-radius: 20px;
+  font-size: 10px;
+  border: 1px solid darkyellow;
+}
+.low {
+  border-radius: 20px;
+  font-size: 10px;
+  border: 1px solid lightgreen;
+}
+
+.progress {
+  background: linear-gradient(
+    to right,
+    #23cb34 0%,
+    #23cb34 40%,
+    #c2e7c5 40%,
+    #fff 100%
+  );
+  border-radius: 8px;
+  height: 20px;
+  width: auto;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
+
+.progress::-webkit-slider-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 20%;
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.pagination-button {
+  font-size: 16px;
+  padding: 8px 10px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: white;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.pagination-button.active {
+  background-color: red;
+  color: white;
+}
+
+.pagination-button.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* Adjust icon color */
+.pagination-button svg {
+  fill: currentColor;
+}
+
+.pagination-button.disabled svg {
+  fill: #ccc;
+}
+.task-info {
+  display: flex;
+  align-items: center;
+}
+
+.task-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.header-btn {
+  background-color: red;
+  color: white;
+  border-radius: 25px;
+  font-size: 14px;
+}
+
+.header-container {
+  margin-left: 15px;
+}
+
+.header-container h4 {
+  margin-left: -25px;
+}
+
+.header-btn:hover {
+  background-color: red;
+  color: white;
+}
+/* Style for the task form container */
+.task-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-form label {
+  font-weight: bold;
+  color: #000000;
+}
+
+.task-form input[type="text"],
+.task-form input[type="date"],
+.task-form select,
+.task-form input[type="range"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.task-form .btn-primary {
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.task-form .btn-primary:hover {
+  background-color: #cc0000;
+}

@@ -1,0 +1,45 @@
+.Sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100vh;
+  background-color: red;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.icon-svg {
+  width: 52px;
+  height: 32px;
+  color: rgb(255, 255, 255);
+  margin-top: 60px;
+}
+
+.icon-svg1 {
+  width: 42px;
+  height: 28px;
+  color: rgb(255, 255, 255);
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+.icon-svg3 {
+  width: 42px;
+  height: 28px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 60%;
+}
+
+.icon-svg4 {
+  width: 42px;
+  height: 28px;
+  color: rgb(255, 255, 255);
+}
+
+.icon-save {
+  position: relative;
+  top: 5%;
+  left: 5px;
+}

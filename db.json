@@ -1,0 +1,94 @@
+
+{
+    "username": "abc",
+    "email": "abc@example.com",
+    "password": "password12356",
+    "tasks": [
+      {
+        "taskId": "T004",
+        "taskName": "Write Documentation",
+        "priority": "normal",
+        "dueDate": {
+          "$date": "2023-10-15T00:00:00.000Z"
+        },
+        "completionStatus": "progress",
+        "_id": {
+          "$oid": "65017b92c61448da26cff9a0"
+        }
+      },
+      {
+        "taskId": "T005",
+        "taskName": "Write Documentation",
+        "priority": "normal",
+        "dueDate": {
+          "$date": "2023-10-15T00:00:00.000Z"
+        },
+        "completionStatus": "progress",
+        "_id": {
+          "$oid": "65017ba3c61448da26cff9a3"
+        }
+      },
+      {
+        "taskId": "T006",
+        "taskName": "Write Documentation",
+        "priority": "normal",
+        "dueDate": {
+          "$date": "2023-10-15T00:00:00.000Z"
+        },
+        "completionStatus": "progress",
+        "_id": {
+          "$oid": "65017bcbc61448da26cff9a7"
+        }
+      },
+      {
+        "taskId": "T007",
+        "taskName": "Write Documentation",
+        "priority": "normal",
+        "dueDate": {
+          "$date": "2023-10-15T00:00:00.000Z"
+        },
+        "completionStatus": "progress",
+        "_id": {
+          "$oid": "65017bedc61448da26cff9ac"
+        }
+      },
+      {
+        "taskId": "T007",
+        "taskName": "Write Documentation",
+        "priority": "normal",
+        "dueDate": {
+          "$date": "2023-10-15T00:00:00.000Z"
+        },
+        "completionStatus": "progress",
+        "_id": {
+          "$oid": "65017fecdf02b95f37d4f584"
+        }
+      },
+      {
+        "taskId": "T008",
+        "taskName": "Write Documentation",
+        "priority": "normal",
+        "dueDate": {
+          "$date": "2023-10-15T00:00:00.000Z"
+        },
+        "completionStatus": "progress",
+        "_id": {
+          "$oid": "6501800ddf02b95f37d4f58b"
+        }
+      },
+      {
+        "taskId": "T009",
+        "taskName": "Write Documentation",
+        "assignedTo": "vishwa",
+        "priority": "normal",
+        "dueDate": {
+          "$date": "2023-10-15T00:00:00.000Z"
+        },
+        "completionStatus": "progress",
+        "_id": {
+          "$oid": "650180e06418fe0caa085922"
+        }
+      }
+    ],
+    "__v": 0
+  }

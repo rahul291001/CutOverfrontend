@@ -1,0 +1,111 @@
+.container {
+  position: relative;
+  left: 2%;
+}
+
+.card {
+  height: 185px;
+  width: 160px;
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.rotated-card {
+  position: relative;
+  transform: rotate(270deg);
+  transform-origin: left bottom;
+  display: flex;
+  align-items: flex-end;
+}
+
+.card .text {
+  max-height: 26px;
+}
+.card .text h1 {
+  margin-top: -10px;
+}
+.card .text p {
+  margin-top: -15px;
+}
+
+.rotate-text {
+  position: absolute;
+  font-size: 20px;
+  top: -81px;
+  left: -160px;
+  color: white;
+  padding: 5px 10px;
+  transform: rotate(0deg);
+}
+
+.tasks-box {
+  border: 1px solid grey;
+  border-radius: 25px;
+  height: 320px;
+  width: 230px;
+  padding-top: 24px;
+}
+
+.chart-labels {
+  margin-top: -48px;
+  font-size: 13px;
+}
+
+.parent-row-one {
+  border: 1px solid grey;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 50px;
+}
+
+.parent-row-two {
+  border: 1px solid grey;
+  height: 256px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.directvsindirect {
+  font-weight: 700;
+  border-right: 1px solid grey;
+  padding-right: 19px;
+}
+
+.direct,
+.indirect {
+  font-size: 13px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.red {
+  background-color: red;
+}
+
+.card-one {
+  background-color: rgb(255, 162, 0);
+}
+.card-two {
+  background-color: red;
+}
+.card-three {
+  background-color: rgb(30, 144, 144);
+}
+.card-four {
+  background-color: rgb(164, 39, 164);
+}
