@@ -98,7 +98,7 @@ const SingupPage = () => {
             </div>
           </form>
           <div className="login-link">
-            Already have an account? <Link to="/">Sign In</Link>
+            Already have an account? <Link to="/">Back to Sign In</Link>
           </div>
         </div>
       </div>
