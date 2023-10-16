@@ -23,7 +23,7 @@ const AddTaskForm = ({ userId, onTaskAdded, onCancel }) => {
     e.preventDefault();
     try {
       const response = await fetch(
-        `http://localhost:3000/api/users/${userId}/tasks`,
+        `http://ec2-13-53-38-51.eu-north-1.compute.amazonaws.com:3000/api/users/${userId}/tasks`,
         {
           method: "POST",
           headers: {
@@ -131,12 +131,11 @@ const AddTaskForm = ({ userId, onTaskAdded, onCancel }) => {
 
 export default AddTaskForm;
 
-//==============================================>>>
-
+//==============================================================>>Localhost 3000 below code
 // import React, { useState } from "react";
-// import { useUser } from "./UserContext";
+// import "../Styles/addtaskform.css";
 
-// const AddTaskForm = ({ userId, onTaskAdded }) => {
+// const AddTaskForm = ({ userId, onTaskAdded, onCancel }) => {
 //   const [formData, setFormData] = useState({
 //     taskId: "",
 //     taskName: "",
@@ -154,7 +153,8 @@ export default AddTaskForm;
 //     });
 //   };
 
-//   const handleSubmit = async (formData) => {
+//   const handleSubmit = async (e) => {
+//     e.preventDefault();
 //     try {
 //       const response = await fetch(
 //         `http://localhost:3000/api/users/${userId}/tasks`,
@@ -169,7 +169,7 @@ export default AddTaskForm;
 
 //       if (response.ok) {
 //         const newTask = await response.json();
-//         onFormSubmit(newTask);
+//         onTaskAdded(newTask);
 //       } else {
 //         console.error("Error adding task:", response.statusText);
 //       }
@@ -255,9 +255,14 @@ export default AddTaskForm;
 //           </select>
 //         </div>
 //         <button type="submit">Submit</button>
+//         <button type="button" onClick={onCancel}>
+//           Cancel
+//         </button>
 //       </form>
 //     </div>
 //   );
 // };
 
 // export default AddTaskForm;
+
+//==============================================>>>
