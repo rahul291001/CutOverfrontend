@@ -18,7 +18,7 @@ function TaskTable() {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        `http://ec2-13-53-38-51.eu-north-1.compute.amazonaws.com:3000/api/users/${userId}`
+        `https://fragile-jay-vestments.cyclic.app/api/users/${userId}`
       );
       const data = await response.json();
       const userTasks = data.user.tasks;
