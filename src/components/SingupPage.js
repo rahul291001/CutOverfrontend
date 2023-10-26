@@ -20,7 +20,7 @@ const SingupPage = () => {
 
     try {
       const response = await fetch(
-        "http://ec2-13-53-38-51.eu-north-1.compute.amazonaws.com:3000/api/users/register",
+        "https://fragile-jay-vestments.cyclic.app/api/users/register",
         {
           method: "POST",
           headers: {
