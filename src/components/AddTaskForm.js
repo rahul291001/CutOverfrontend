@@ -23,7 +23,7 @@ const AddTaskForm = ({ userId, onTaskAdded, onCancel }) => {
     e.preventDefault();
     try {
       const response = await fetch(
-        `http://ec2-13-53-38-51.eu-north-1.compute.amazonaws.com:3000/api/users/${userId}/tasks`,
+        `https://fragile-jay-vestments.cyclic.app/api/users/${userId}/tasks`,
         {
           method: "POST",
           headers: {
