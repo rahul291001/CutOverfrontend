@@ -23,7 +23,7 @@ function Welcome() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `https://fragile-jay-vestments.cyclic.app/api/users/${userId}`
+          `https://amused-khakis-fly.cyclic.app/api/users/${userId}`
         );
         const data = await response.json();
 
