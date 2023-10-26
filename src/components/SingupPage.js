@@ -20,7 +20,7 @@ const SingupPage = () => {
 
     try {
       const response = await fetch(
-        "https://fragile-jay-vestments.cyclic.app/api/users/register",
+        "https://amused-khakis-fly.cyclic.app/api/users/register",
         {
           method: "POST",
           headers: {
