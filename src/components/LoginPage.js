@@ -38,7 +38,7 @@ const LoginPage = () => {
 
     try {
       const response = await fetch(
-        "https://fragile-jay-vestments.cyclic.app/api/users/login",
+        "https://amused-khakis-fly.cyclic.app/api/users/login",
         {
           method: "POST",
           headers: {
